@@ -1,23 +1,21 @@
-/*  your css code here. If applicable */
 #container {
   margin: 20px;
   position: relative;
 }
 
 #container::before {
-  content: "Special Text Before";
+  content: "Before Element";
   color: #f00;
   font-size: 20px;
-  position: absolute;
-  top: -30px;
-  left: 0;
+/*   position: absolute;
+  top: -30px; */
 }
 
 #container::after {
-  content: "Special Text After";
+  content: "After Element";
   color: #f00;
   font-size: 20px;
-  position: absolute;
+/*   position: absolute;
   bottom: -30px;
-  left: 0;
+  left: 0; */
 }
